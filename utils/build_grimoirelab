@@ -102,7 +102,7 @@ all_repos = {
             'repo_url': 'http://github.com/chaoss/grimoirelab-cereslib',
             'version_file': os.path.join('cereslib', '_version.py')}],
     'graal': [{'name': 'graal', 'dir': '',
-                  'repo_url': 'http://github.com/chaoss/grimoirelab-graal',
+                  'repo_url': 'https://github.com/inishchith/grimoirelab-graal',
                   'version_file': os.path.join('graal', '_version.py'),
                   'check_run': 'graal --help',
                   'test': True}]
