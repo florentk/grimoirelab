@@ -50,6 +50,11 @@ if [[ $RUN_MORDRED ]] && [[ $RUN_MORDRED = "NO" ]]; then
   echo "All services up, not running SirMordred because RUN_MORDRED = NO"
   echo "Get a shell running docker exec, for example:"
   echo "docker exec -it" $(hostname) "env TERM=xterm /bin/bash"
+  echo 
+  echo "You can use micro-mordred to populate datas:"
+  echo "cd grimoirelab-sirmordred/utils"
+  echo "python3 micro.py --raw --enrich --cfg ./setup.cfg --backends git cocom"
+  echo "python3 micro.py --panels --cfg ./setup.cfg"
 elif [[ $TEST ]] && [[ $TEST = "YES" ]]; then
   echo
   echo "Testing GrimoireLab"

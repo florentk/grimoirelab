@@ -21,6 +21,7 @@ RUN apt-get update && \
         bash locales \
         gcc \
         git git-core \
+        cloc \
         pandoc \
         python3 \
         python3-pip \
